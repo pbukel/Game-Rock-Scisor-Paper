@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK-SCISOR-PAPER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="game">
+        <h1>ROCK-SCISOR-PAPER</h1>
+        <section class="section">
+            <div>Your result <span class="arrow">→</span></div>
+            <div class="results">
+                <div class="count count-user">0</div>
+                <span>:</span>
+                <div class="count count-pc">0</div>
+            </div>
+            <div><span class="arrow">←</span> PC Result</div>
+        </section>
+        <div class="signs">
+            <div class="user-field">
+                <h2 class="notification">Your Selection:</h2>
+                <button class="field rock" id="rock-user"></button>
+                <button class="field scissors"id="scissors-user" ></button>
+                <button class="field paper" id="paper-user"></button>
+            </div>
+            <div class="pc-field">
+                <h2>PC selection</h2>
+                <button class="field rock" id="rock-pc"></button>
+                <button class="field scissors" id="scissors-pc"></button>
+                <button class="field paper" id="paper-pc"></button>
+            </div>
+        </div>
+        <h3 class="result">CONFIRM</h3>
+    </div>
+    <div class="buttons">
+        <button class="play">Play again!</button>
+    </div>
+</body>
+</html>
