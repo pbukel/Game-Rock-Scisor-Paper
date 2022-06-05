@@ -86,15 +86,15 @@ body{
 }
 
 .rock {
-    background: url(../img/1.png) center no-repeat;
+    background: url(/1.png) center no-repeat;
 }
 
 .scissors {
-    background: url(../img/2.png) center no-repeat;
+    background: url(/2.png) center no-repeat;
 }
 
 .paper {
-    background: url(../img/3.png) center no-repeat;
+    background: url(/3.png) center no-repeat;
 }
 
 .buttons button:hover {
