@@ -86,15 +86,15 @@ body{
 }
 
 .rock {
-    background: url(/1.png) center no-repeat;
+    background: url("https://pbukel.github.io/Game-Rock-Scisor-Paper/1.png") center no-repeat;
 }
 
 .scissors {
-    background: url(/2.png) center no-repeat;
+    background: url("https://pbukel.github.io/Game-Rock-Scisor-Paper/2.png") center no-repeat;
 }
 
 .paper {
-    background: url(/3.png) center no-repeat;
+    background: url("https://pbukel.github.io/Game-Rock-Scisor-Paper/3.png") center no-repeat;
 }
 
 .buttons button:hover {
